@@ -1,24 +1,20 @@
 :root {
   --color-accent: #4d5ae5;
   --bg-accent: #4d5ae5;
-  --color-ocean: #404bbf;
-  --color-navy-blue: #2e2f42;
-  --color-green: #31d0aa;
-  --color-slate: #434455;
-  --color-light-slate: #8e8f99;
-  --color-cornflower: #e7e9fc;
+  --accent-active: #404bbf;
+  --secondary-text-color: #2e2f42;
+  --secondary-bg-color: #2e2f42;
+  --primary-text-color: #434455;
   --color-cloud: #f4f4fd;
-  --color-navy-blue-modal: #2e2f42;
-  --color-grey: #2e2f42;
-  --color-white: #ffffff;
-  --color-dairy: #fcfcfc;
+  --bg-btn-portfolio: #f4f4fd;
+  --bg-white: #ffffff;
 }
 
 /*------------------------------------------ */
 
 body {
-  color: #434455;
-  background-color: #ffff;
+  color: var(--primary-text-color);
+  background-color: var(--bg-white);
 
   font-family: Roboto, sans-serif;
   font-weight: 400;
@@ -34,7 +30,7 @@ body {
 }
 
 .logo {
-  color: #4d5ae5;
+  color: var(--color-accent);
   font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -45,7 +41,7 @@ body {
 }
 
 .logo-studio {
-  color: #2e2f42;
+  color: var(--secondary-text-color);
 }
 
 .list {
@@ -53,7 +49,7 @@ body {
 }
 
 .nav-element {
-  color: #2e2f42;
+  color: var(--secondary-text-color);
   font-weight: 500;
 }
 
@@ -61,7 +57,7 @@ body {
 .nav-element:focus,
 .contact:hover,
 .contact:focus {
-  color: #404bbf;
+  color: var(--accent-active);
 }
 
 .address {
@@ -69,15 +65,15 @@ body {
 }
 
 .contact {
-  color: #434455;
+  color: var(--primary-text-color);
 }
 .hero {
   text-align: center;
 }
 
 .hero-title {
-  color: #ffffff;
-  background-color: #2e2f42;
+  color: var(--bg-white);
+  background-color: var(--secondary-bg-color);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -85,9 +81,9 @@ body {
 }
 
 .button {
-  color: #ffffff;
+  color: var(--bg-white);
   font-family: inherit;
-  background-color: #4d5ae5;
+  background-color: var(--bg-accent);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -98,14 +94,14 @@ body {
 
 .button:hover,
 .button:focus {
-  background-color: #404bbf;
+  background-color: var(--accent-active);
 }
 
 .section {
 }
 
 .section-title {
-  color: #2e2f42;
+  color: var(--secondary-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -114,7 +110,7 @@ body {
   text-transform: capitalize;
 }
 .sub-title {
-  color: #2e2f42;
+  color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -122,28 +118,28 @@ body {
 }
 
 .team {
-  background-color: #f4f4fd;
+  background-color: var(--color-cloud);
 }
 .card-item {
-  background-color: #ffffff;
+  background-color: var(--bg-white);
 }
 
 .text {
-  color: #434455;
+  color: var(--primary-text-color);
 }
 
 .footer {
-  color: #f4f4fd;
-  background-color: #2e2f42;
+  color: var(--color-cloud);
+  background-color: var(--secondary-bg-color);
 }
 
 .footer-studio {
-  color: #f4f4fd;
+  color: var(--color-cloud);
 }
 
 .btn {
-  color: #4d5ae5;
-  background-color: #f4f4fd;
+  color: var(--color-accent);
+  background-color: var(--bg-btn-portfolio);
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
@@ -155,6 +151,6 @@ body {
 }
 .btn:hover,
 .btn:focus {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--bg-white);
+  background-color: var(--accent-active);
 }
