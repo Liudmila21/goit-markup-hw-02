@@ -1,0 +1,159 @@
+:root {
+  --color-accent: #4d5ae5;
+  --bg-accent: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-navy-blue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-slate: #434455;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-navy-blue-modal: #2e2f42;
+  --color-grey: #2e2f42;
+  --color-white: #ffffff;
+  --color-dairy: #fcfcfc;
+}
+
+/*------------------------------------------ */
+
+body {
+  color: #434455;
+  background-color: #ffff;
+
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.link {
+  text-decoration: none;
+}
+
+.header {
+}
+
+.logo {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-studio {
+  color: #2e2f42;
+}
+
+.list {
+  list-style: none;
+}
+
+.nav-element {
+  color: #2e2f42;
+  font-weight: 500;
+}
+
+.nav-element:hover,
+.nav-element:focus,
+.contact:hover,
+.contact:focus {
+  color: #404bbf;
+}
+
+.address {
+  font-style: normal;
+}
+
+.contact {
+  color: #434455;
+}
+.hero {
+  color: #ffffff;
+  background-color: #2e2f42;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+}
+
+.hero-title {
+  color: #ffffff;
+  background-color: #2e2f42;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  /* line-height: 1.5; */
+  align-items: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
+
+.section {
+}
+
+.section-title {
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  /* letter-spacing: 0.02em; */
+  text-transform: capitalize;
+}
+.sub-title {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+.card-item {
+  background-color: #ffffff;
+}
+
+.text {
+  color: #434455;
+}
+
+.footer {
+  color: #f4f4fd;
+  background-color: #2e2f42;
+}
+
+.footer-studio {
+  color: #f4f4fd;
+}
+
+.btn {
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  /*border: none;*/
+}
+.btn:hover,
+.btn:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
